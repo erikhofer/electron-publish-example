@@ -6,7 +6,7 @@ on:
 
 jobs:
 
-  build_on_linux:
+  publish_on_linux:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2       
@@ -20,7 +20,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: npm run publish
 
-  build_on_mac:
+  publish_on_mac:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v2
@@ -34,7 +34,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: npm run publish
       
-  build_on_win:
+  publish_on_win:
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@v2       
