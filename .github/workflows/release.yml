@@ -3,7 +3,7 @@ on:
   push:
     tags:
       - 'v*'
-
+permissions: write-all
 jobs:
 
   publish_on_linux:
