@@ -47,7 +47,7 @@
           "name": "@electron-forge/publisher-github",
           "config": {
             "repository": {
-              "owner": "erikhofer",
+              "owner": "qzw881130",
               "name": "electron-publish-example",
               "draft": true
             }
