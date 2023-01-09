@@ -49,7 +49,7 @@
             "repository": {
               "owner": "qzw881130",
               "name": "electron-publish-example",
-              "draft": true
+              "draft": false
             }
           }
         }
